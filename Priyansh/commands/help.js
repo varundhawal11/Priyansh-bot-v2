@@ -57,7 +57,7 @@ module.exports. run = function({ api, event, args, getText }) {
     const numberOfOnePage = 10;
     //*số thứ tự 1 2 3.....cú pháp ${++i}*//
     let i = 0;
-    let msg = "";
+    let msg = "🌺";
     
     for (var [name, value] of (commands)) {
       name += ``;
@@ -70,10 +70,10 @@ module.exports. run = function({ api, event, args, getText }) {
     i = startSlice;
     const returnArray = arrayInfo.slice(startSlice, startSlice + numberOfOnePage);
     
-    for (let item of returnArray) msg += `「 ${++i} 」${prefix}${item}\n`;
+    for (let item of returnArray) msg += `『 ${++i} 』${prefix}${item}\n`;
     
     
-    const siu = `Command list 📄\nMade by Prîyánsh Rajput 🥀\nFor More Information type /help (command name) ✨\n󰂆 󰟯 󰟰 󰟷 󰟺 󰟵 󰟫`;
+    const siu = `Command list 📄\nMade by varun dhawal 🥀\nFor More Information type /help (command name) ✨\n❤️`;
     
  const text = `\nPage (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})\n`;
  
