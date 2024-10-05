@@ -16,13 +16,13 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "Your-Father",
+    "BOTNAME": "+BOT+",
     "PREFIX": "/",
     "ADMINBOT": [
-        "100037743553265"
+        "61556417013686"
     ],
     "NDH": [
-        "100037743553265"
+        "61556417013686"
     ],
     "DATABASE": {
         "sqlite": {
