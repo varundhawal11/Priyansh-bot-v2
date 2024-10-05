@@ -70,7 +70,7 @@ module.exports. run = function({ api, event, args, getText }) {
     i = startSlice;
     const returnArray = arrayInfo.slice(startSlice, startSlice + numberOfOnePage);
     
-    for (let item of returnArray) msg += `『 ${++i} 』${prefix}${item}\n`;
+    for (let item of returnArray) msg += `🌺『 ${++i} 』${prefix}${item}\n`;
     
     
     const siu = `𝐕𝐚𝐫𝐮𝐧 𝐝𝐡𝐚𝐰𝐚𝐥🥀𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐥𝐢𝐬𝐭📑`;
