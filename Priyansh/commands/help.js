@@ -22,7 +22,7 @@ module.exports.languages = {
   //      "adminBot": "Quản trị viên bot"
 //	},
 	"en": {
-		"moduleInfo": "「 %1 」\n%2\n\n❯ Usage: %3\n❯ Category: %4\n❯ Waiting time: %5 seconds(s)\n❯ Permission: %6\n\n» Module code by %7 «",
+		"moduleInfo": "『 %1 』\n%2\n\n❯ Usage: %3\n❯ Category: %4\n❯ Waiting time: %5 seconds(s)\n❯ Permission: %6\n\n» Module code by %7 «",
 		"helpList": '[ There are %1 commands on this bot, Use: "%2help nameCommand" to know how to use! ]',
 		"user": "User",
         "adminGroup": "Admin group",
@@ -57,7 +57,7 @@ module.exports. run = function({ api, event, args, getText }) {
     const numberOfOnePage = 10;
     //*số thứ tự 1 2 3.....cú pháp ${++i}*//
     let i = 0;
-    let msg = "🌺";
+    let msg = "";
     
     for (var [name, value] of (commands)) {
       name += ``;
@@ -73,7 +73,7 @@ module.exports. run = function({ api, event, args, getText }) {
     for (let item of returnArray) msg += `『 ${++i} 』${prefix}${item}\n`;
     
     
-    const siu = `Command list 📄\nMade by varun dhawal 🥀\nFor More Information type /help (command name) ✨\n❤️`;
+    const siu = `𝐕𝐚𝐫𝐮𝐧 𝐝𝐡𝐚𝐰𝐚𝐥🥀𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐥𝐢𝐬𝐭📑`;
     
  const text = `\nPage (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})\n`;
  
