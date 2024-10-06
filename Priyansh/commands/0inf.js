@@ -51,12 +51,9 @@ var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ �
 ✅𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐈𝐍𝐆 ${global.config.BOTNAME} Bot🖤
 
 
-🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
-┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
-🌸✦✧✧✧✧✰🍒𝕍𝔸ℝ𝕌ℕ🌿✰✧✧✧✧✦🌸
-┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
+🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞 𝐕𝐚𝐫𝐮𝐧 𝐃𝐡𝐚𝐰𝐚𝐥🥀🌺
 
 
-`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
-      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
+`,attachment: fs.createReadStream(__dirname + "/cache/fb.JPG")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/fb.JPG")); 
+      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/fb.JPG")).on("close",() => callback());
    };
